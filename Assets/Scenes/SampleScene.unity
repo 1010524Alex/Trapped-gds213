@@ -310,7 +310,7 @@ GameObject:
   - component: {fileID: 325419998}
   m_Layer: 0
   m_Name: Exit
-  m_TagString: Untagged
+  m_TagString: Window
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,12 +330,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.986371, y: 1, z: 0.9999999}
-  m_Center: {x: 1.9931861, y: 0, z: 0}
+  m_Size: {x: 1.3821443, y: 1, z: 0.9999999}
+  m_Center: {x: 0.19107312, y: 0, z: 0}
 --- !u!23 &325419999
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1269,7 +1269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerText: {fileID: 493662732}
-  RemainingTime: 5
+  RemainingTime: 30
 --- !u!114 &1462814662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1363,6 +1363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1511024978}
+  - component: {fileID: 1511024979}
   m_Layer: 0
   m_Name: Window Radius
   m_TagString: Untagged
@@ -1385,6 +1386,27 @@ Transform:
   m_Father: {fileID: 325420001}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1511024979
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511024977}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.745689, y: 1, z: 0.9999999}
+  m_Center: {x: 1.8728452, y: 0, z: 0}
 --- !u!1 &1653705632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1660,7 @@ GameObject:
   - component: {fileID: 2121105193}
   - component: {fileID: 2121105192}
   - component: {fileID: 2121105195}
+  - component: {fileID: 2121105196}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -1727,3 +1750,22 @@ MonoBehaviour:
   ChemicalA: {fileID: 1945107993}
   ChemicalB: {fileID: 838373404}
   ChemicalC: {fileID: 324848401}
+--- !u!114 &2121105196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121105190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8d4ac22b4501341aa55348eb190e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChemicalA: {fileID: 1945107993}
+  ChemicalB: {fileID: 838373404}
+  ChemicalC: {fileID: 324848401}
+  Window: {fileID: 325419997}
+  ChemicalD: 0
+  WindowAccess: 0
+  WindowRadius: 0

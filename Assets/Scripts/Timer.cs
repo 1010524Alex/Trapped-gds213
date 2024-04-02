@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI TimerText;
@@ -22,6 +23,11 @@ public class Timer : MonoBehaviour
         else if (RemainingTime < 0)
         {
             RemainingTime = 0;
+            SceneManager.LoadScene(3);
+        }
+
+        if (RemainingTime < 10)
+        {
             TimerText.color = Color.red;
         }
 

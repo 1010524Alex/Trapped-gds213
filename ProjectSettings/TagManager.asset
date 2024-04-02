@@ -8,6 +8,7 @@ TagManager:
   - Chemical A
   - Chemical B
   - Chemical C
+  - Window
   layers:
   - Default
   - TransparentFX
