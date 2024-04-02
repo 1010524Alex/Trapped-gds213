@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Chemical
+  - Chemical A
+  - Chemical B
+  - Chemical C
   layers:
   - Default
   - TransparentFX
