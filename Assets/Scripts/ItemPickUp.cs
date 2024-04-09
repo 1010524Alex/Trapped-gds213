@@ -11,14 +11,21 @@ public class ItemPickUp : MonoBehaviour
     public GameObject ChemicalA;
     public GameObject ChemicalB;
     public GameObject ChemicalC;
-    [SerializeField] TextMeshProUGUI InteractText;
+    [SerializeField] TextMeshProUGUI RadiusAText;
+    [SerializeField] TextMeshProUGUI RadiusBText;
+    [SerializeField] TextMeshProUGUI RadiusCText;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         RadiusA = false;
         RadiusB = false;
         RadiusC = false;
-        InteractText.enabled = false;
+        RadiusAText.enabled = false;
+        RadiusBText.enabled = false;
+        RadiusCText.enabled = false;
     }
 
     // Update is called once per frame
@@ -57,17 +64,17 @@ public class ItemPickUp : MonoBehaviour
 
         if (ChemicalA == null)
         {
-            InteractText.enabled = false;
+            RadiusAText.enabled = false;
         }
 
         if (ChemicalB == null)
         {
-            InteractText.enabled = false;
+            RadiusBText.enabled = false;
         }
 
         if (ChemicalC == null)
         {
-            InteractText.enabled = false;
+            RadiusCText.enabled = false;
         }
     }
 
@@ -76,21 +83,21 @@ public class ItemPickUp : MonoBehaviour
         if (other.CompareTag("Chemical A"))
         {
             RadiusA = true;
-            InteractText.enabled = true;
+            RadiusAText.enabled = true;
             Debug.Log("Enter RadiusA");
         }
 
         if (other.CompareTag("Chemical B"))
         {
             RadiusB = true;
-            InteractText.enabled = true;
+            RadiusBText.enabled = true;
             Debug.Log("Enter RadiusB");
         }
 
         if (other.CompareTag("Chemical C"))
         {
             RadiusC = true;
-            InteractText.enabled = true;
+            RadiusCText.enabled = true;
             Debug.Log("Enter RadiusC");
         }
     }
@@ -100,21 +107,21 @@ public class ItemPickUp : MonoBehaviour
         if (other.CompareTag("Chemical A"))
         {
             RadiusA = false;
-            InteractText.enabled = false;
+            RadiusAText.enabled = false;
             Debug.Log("Exit RadiusA");
         }
 
         if (other.CompareTag("Chemical B"))
         {
             RadiusB = false;
-            InteractText.enabled = false;
+            RadiusBText.enabled = false;
             Debug.Log("Exit RadiusB");
         }
 
         if (other.CompareTag("Chemical C"))
         {
             RadiusC = false;
-            InteractText.enabled = false;
+            RadiusCText.enabled = false;
             Debug.Log("Exit RadiusC");
         }
     }
