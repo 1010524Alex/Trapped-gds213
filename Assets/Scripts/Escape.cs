@@ -11,6 +11,8 @@ public class Escape : MonoBehaviour
     public GameObject ChemicalC;
     public bool ChemicalD;
     public bool WindowRadius;
+    bool hasSetSafe = false;
+
     [SerializeField] TextMeshProUGUI EscapeText;
     public GameObject CorrosiveText;
     // Start is called before the first frame update
@@ -31,19 +33,17 @@ public class Escape : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 SceneManager.LoadScene(2);
+                Cursor.lockState = CursorLockMode.None;
             }
        }
 
        if (ChemicalA == null && ChemicalB == null && ChemicalC == null)
        {
-            ChemicalD = true;
+            Corrosive();
             Debug.Log("Chemical D Acquired");
        }
 
-       if (ChemicalD == true)
-       {
-            Corrosive();
-       }
+       
     }
 
     private void OnTriggerEnter(Collider other)
@@ -67,14 +67,23 @@ public class Escape : MonoBehaviour
 
     IEnumerator TextDisappear()
     {
+        CorrosiveText.SetActive(true);
         yield return new WaitForSeconds(2);
         CorrosiveText.SetActive(false);
+        Debug.Log("Text Disappears now");
+        yield break;
     }
 
     void Corrosive()
     {
-        CorrosiveText.SetActive(true);
-        StartCoroutine(TextDisappear());
+        ChemicalD = true;
+        if (!hasSetSafe)
+        {
+            hasSetSafe = true;
+            StartCoroutine(TextDisappear());
+            Debug.Log("How many times does text run");
+        }
+        Debug.Log("lol why no work??");
     }
     
 }
