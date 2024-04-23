@@ -14,6 +14,7 @@ public class Escape : MonoBehaviour
     bool hasSetSafe = false;
 
     [SerializeField] TextMeshProUGUI EscapeText;
+    [SerializeField] TextMeshProUGUI Introtext;
     public GameObject CorrosiveText;
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class Escape : MonoBehaviour
         ChemicalD = false;
         WindowRadius = false;
         EscapeText.enabled = false;
+        Introtext.enabled = true;
         CorrosiveText.SetActive(false);
     }
 
@@ -41,6 +43,11 @@ public class Escape : MonoBehaviour
        {
             Corrosive();
             Debug.Log("Chemical D Acquired");
+       }
+
+       if (Introtext.enabled == true)
+       {
+            StartCoroutine(DeleteIntroText());
        }
 
        
@@ -68,9 +75,16 @@ public class Escape : MonoBehaviour
     IEnumerator TextDisappear()
     {
         CorrosiveText.SetActive(true);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         CorrosiveText.SetActive(false);
         Debug.Log("Text Disappears now");
+        yield break;
+    }
+
+    IEnumerator DeleteIntroText()
+    {
+        yield return new WaitForSeconds(4);
+        Introtext.enabled = false;
         yield break;
     }
 

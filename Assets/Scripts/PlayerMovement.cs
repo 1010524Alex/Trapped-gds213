@@ -12,6 +12,10 @@ public class PlayerMovement : MonoBehaviour
     public float GroundDistance;
     public LayerMask GroundMask;
     bool IsGrounded;
+    public float CrouchSpeed, NormalHeight, CrouchHeight;
+    bool Crouching;
+    public Transform Player;
+    public Vector3 Offset;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +25,35 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Crouching = !Crouching;
+        }
+
+        if (Crouching == true)
+        {
+            Controller.height = Controller.height - CrouchSpeed * Time.deltaTime;
+            if (Controller.height <= CrouchHeight)
+            {
+                Controller.height = CrouchHeight;
+            }
+        }
+
+        if (Crouching == false)
+        {
+            Controller.height = Controller.height + CrouchSpeed * Time.deltaTime;
+            if(Controller.height < NormalHeight)
+            {
+                Player.gameObject.SetActive(false);
+                Player.position = Player.position + Offset * Time.deltaTime;
+                Player.gameObject.SetActive(true);
+            }
+            if(Controller.height >= NormalHeight)
+            {
+                Controller.height = NormalHeight;
+            }
+        }
+
         IsGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);
 
         if (IsGrounded && Velocity.y < 0)

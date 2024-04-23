@@ -32,7 +32,6 @@ public class Timer : MonoBehaviour
             TimerText.color = Color.red;
         }
 
-        RemainingTime -= Time.deltaTime;
         int minutes = Mathf.FloorToInt(RemainingTime / 60);
         int seconds = Mathf.FloorToInt(RemainingTime % 60);
         TimerText.text = string.Format("{00:00}:{1:00}", minutes, seconds);
