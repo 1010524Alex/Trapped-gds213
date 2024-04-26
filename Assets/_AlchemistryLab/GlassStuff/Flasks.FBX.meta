@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 0d3d0096ad719e345bc9e7b456a11da9
+timeCreated: 1513866290
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object021
+    100004: Object025
+    100006: Object026
+    100008: Object027
+    100010: Object028
+    100012: Object029
+    100014: Object031
+    100016: Object032
+    100018: Object033
+    100020: Object034
+    100022: Object035
+    100024: Object036
+    100026: Object037
+    100028: Object038
+    100030: Object039
+    100032: Object040
+    100034: Object041
+    100036: Object042
+    100038: Object043
+    100040: Object045
+    100042: Object046
+    100044: Object048
+    100046: Object049
+    400000: //RootNode
+    400002: Object021
+    400004: Object025
+    400006: Object026
+    400008: Object027
+    400010: Object028
+    400012: Object029
+    400014: Object031
+    400016: Object032
+    400018: Object033
+    400020: Object034
+    400022: Object035
+    400024: Object036
+    400026: Object037
+    400028: Object038
+    400030: Object039
+    400032: Object040
+    400034: Object041
+    400036: Object042
+    400038: Object043
+    400040: Object045
+    400042: Object046
+    400044: Object048
+    400046: Object049
+    2300000: Object021
+    2300002: Object025
+    2300004: Object026
+    2300006: Object027
+    2300008: Object028
+    2300010: Object029
+    2300012: Object031
+    2300014: Object032
+    2300016: Object033
+    2300018: Object034
+    2300020: Object035
+    2300022: Object036
+    2300024: Object037
+    2300026: Object038
+    2300028: Object039
+    2300030: Object040
+    2300032: Object041
+    2300034: Object042
+    2300036: Object043
+    2300038: Object045
+    2300040: Object046
+    2300042: Object048
+    2300044: Object049
+    3300000: Object021
+    3300002: Object025
+    3300004: Object026
+    3300006: Object027
+    3300008: Object028
+    3300010: Object029
+    3300012: Object031
+    3300014: Object032
+    3300016: Object033
+    3300018: Object034
+    3300020: Object035
+    3300022: Object036
+    3300024: Object037
+    3300026: Object038
+    3300028: Object039
+    3300030: Object040
+    3300032: Object041
+    3300034: Object042
+    3300036: Object043
+    3300038: Object045
+    3300040: Object046
+    3300042: Object048
+    3300044: Object049
+    4300000: Object021
+    4300002: Object049
+    4300004: Object025
+    4300006: Object026
+    4300008: Object027
+    4300010: Object028
+    4300012: Object029
+    4300014: Object035
+    4300016: Object031
+    4300018: Object032
+    4300020: Object033
+    4300022: Object034
+    4300024: Object040
+    4300026: Object036
+    4300028: Object037
+    4300030: Object038
+    4300032: Object039
+    4300034: Object042
+    4300036: Object041
+    4300038: Object045
+    4300040: Object043
+    4300042: Object046
+    4300044: Object048
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flasks_glass
+    second: {fileID: 2100000, guid: d82fdf8ed95f68f40915e49cf09e80b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flasks_metal
+    second: {fileID: 2100000, guid: 9faee2646ba648b4ba0a23e28ac2dcd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flasks_wood
+    second: {fileID: 2100000, guid: c562dd46fcb6bab409f7e5df3a430567, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

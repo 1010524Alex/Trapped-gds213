@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 93b831a48a280a0469c657af3b0ef718
+timeCreated: 1513867701
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object
+    100004: Object050
+    100006: Object051
+    100008: Object052
+    100010: Object053
+    100012: Object054
+    100014: Object056
+    100016: Object058
+    100018: RetopoGroup004
+    100020: RetopoGroup005
+    100022: RetopoGroup006
+    100024: RetopoGroup007
+    400000: //RootNode
+    400002: Object
+    400004: Object050
+    400006: Object051
+    400008: Object052
+    400010: Object053
+    400012: Object054
+    400014: Object056
+    400016: Object058
+    400018: RetopoGroup004
+    400020: RetopoGroup005
+    400022: RetopoGroup006
+    400024: RetopoGroup007
+    2300000: Object
+    2300002: Object050
+    2300004: Object051
+    2300006: Object052
+    2300008: Object053
+    2300010: Object054
+    2300012: Object056
+    2300014: Object058
+    2300016: RetopoGroup004
+    2300018: RetopoGroup005
+    2300020: RetopoGroup006
+    2300022: RetopoGroup007
+    3300000: Object
+    3300002: Object050
+    3300004: Object051
+    3300006: Object052
+    3300008: Object053
+    3300010: Object054
+    3300012: Object056
+    3300014: Object058
+    3300016: RetopoGroup004
+    3300018: RetopoGroup005
+    3300020: RetopoGroup006
+    3300022: RetopoGroup007
+    4300000: RetopoGroup004
+    4300002: Object050
+    4300004: RetopoGroup006
+    4300006: Object056
+    4300008: Object051
+    4300010: RetopoGroup007
+    4300012: Object054
+    4300014: Object052
+    4300016: RetopoGroup005
+    4300018: Object
+    4300020: Object053
+    4300022: Object058
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bio
+    second: {fileID: 2100000, guid: a9a552ab78ec6bf4cb655c221b0c01e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jar
+    second: {fileID: 2100000, guid: a9a552ab78ec6bf4cb655c221b0c01e6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

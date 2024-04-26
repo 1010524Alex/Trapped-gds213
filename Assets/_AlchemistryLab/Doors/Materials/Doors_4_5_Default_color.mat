@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Doors_4_5_Default_color
+  m_Shader: {fileID: 4800000, guid: a2991a03359ecf049a1a006c200406cc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SMOOTHFROMMAPSWITCH_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: ba4db626d0f067e4f80fa2624ba1290d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f722582571d9f4246ba87dfab022dc76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 2b9f65f9313cb424c9fe4ae3882fc5e1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapBlured:
+        m_Texture: {fileID: 8900000, guid: 3ebe31ee616ea094597e60a09cdc6d3a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubmap:
+        m_Texture: {fileID: 8900000, guid: 7674bef4d4245cc4a859cae29f9fa455, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: ba4db626d0f067e4f80fa2624ba1290d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IllumText:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ba4db626d0f067e4f80fa2624ba1290d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 2800000, guid: 96e714205cffe084da9bc81ba45aef4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: f722582571d9f4246ba87dfab022dc76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f722582571d9f4246ba87dfab022dc76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shining:
+        m_Texture: {fileID: 2800000, guid: 96e714205cffe084da9bc81ba45aef4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: 96e714205cffe084da9bc81ba45aef4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _cubemap:
+        m_Texture: {fileID: 8900000, guid: 2b9f65f9313cb424c9fe4ae3882fc5e1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _shining:
+        m_Texture: {fileID: 2800000, guid: 96e714205cffe084da9bc81ba45aef4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ADD_gloss: 0.15842858
+    - _EmissionMultiplayer: 0
+    - _EmissionSwitch: 0
+    - _GlossHigh: 0.7169596
+    - _GlossLow: 0.25592002
+    - _HighSpecMultiplayer: 2.021673
+    - _HighSpecMultiplayerN: 1
+    - _MetalicBrightnes: 0
+    - _Metallic: 1.42
+    - _NormalMapDepth: 1
+    - _ParalaxOffset: 0.001
+    - _Shininess: 0.078125
+    - _SmoothFromMapSwitch: 1
+    - _SmoothRough: 0
+    - _Snoothness: 2.07
+    - _Spec_Pic_range: 2.25
+    - _Tiling: 1
+    - __dirty: 0
+    - _cubemap_modifier: -0.5071429
+    - _range: 0.071428575
+    m_Colors:
+    - _ADD_specular: {r: 0.1397059, g: 0.10683392, b: 0.10683392, a: 1}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _CubemapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _HighSpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _IllumColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LowSpecColor: {r: 0.1544118, g: 0.13386531, b: 0.10786118, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _color: {r: 0.7164179, g: 0.6469147, b: 0.6469147, a: 1}
+    - _color_cubemap: {r: 0.49264705, g: 0.49264705, b: 0.49264705, a: 1}
+    - _color_illum: {r: 1, g: 1, b: 1, a: 1}
+    - _diff_color: {r: 1, g: 0.977612, b: 0.977612, a: 1}
+  m_BuildTextureStacks: []
