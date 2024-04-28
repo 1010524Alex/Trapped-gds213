@@ -8,6 +8,7 @@ public class MoveFurniture : MonoBehaviour
     Animator cupboardAnim;
     public TextMeshProUGUI cupboardText;
     public bool cupboardRadius;
+    public AudioSource cupboardAudioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class MoveFurniture : MonoBehaviour
         {
             CupboardPush();
             cupboardText.enabled = false;
+            cupboardAudioSource.Play();
         }
     }
 
@@ -40,6 +42,6 @@ public class MoveFurniture : MonoBehaviour
 
     void CupboardPush()
     {
-        cupboardAnim.SetTrigger("Pushing Cupboard");    
+        cupboardAnim.SetTrigger("Push Cupboard");    
     }
 }

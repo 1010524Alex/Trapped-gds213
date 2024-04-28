@@ -14,6 +14,7 @@ public class ItemPickUp : MonoBehaviour
     [SerializeField] TextMeshProUGUI RadiusAText;
     [SerializeField] TextMeshProUGUI RadiusBText;
     [SerializeField] TextMeshProUGUI RadiusCText;
+    public AudioSource itemPickUpSound;
 
 
 
@@ -38,7 +39,7 @@ public class ItemPickUp : MonoBehaviour
                 //ChemicalA.SetActive(false);
                 Destroy(GameObject.FindWithTag("Chemical A"));
                 Debug.Log("Chemical A Collected");
-                
+                itemPickUpSound.Play();
             }
         }
 
@@ -49,6 +50,7 @@ public class ItemPickUp : MonoBehaviour
                 //ChemicalB.SetActive(false);
                 Destroy(GameObject.FindWithTag("Chemical B"));
                 Debug.Log("Chemical B Collected");
+                itemPickUpSound.Play();
             }
         }
 
@@ -59,6 +61,7 @@ public class ItemPickUp : MonoBehaviour
                 //ChemicalC.SetActive(false);
                 Destroy(GameObject.FindWithTag("Chemical C"));
                 Debug.Log("Chemical C Collected");
+                itemPickUpSound.Play();
             }
         }
 
