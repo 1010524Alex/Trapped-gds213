@@ -10,6 +10,9 @@ TagManager:
   - Chemical C
   - Window
   - Cupboard
+  - Safe
+  - Combination
+  - Test
   layers:
   - Default
   - TransparentFX
